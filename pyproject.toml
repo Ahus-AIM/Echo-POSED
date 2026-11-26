@@ -1,0 +1,32 @@
+[project]
+name = "echo-posed"
+version = "0.1.0"
+description = "Echocardiographic probe pose estimation and view guidance"
+license = { file = "LICENSE" }
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "echoxflow==1.0.0",
+  "matplotlib>=3.9",
+  "numpy>=2",
+  "pillow>=10",
+  "scikit-image>=0.25",
+  "scipy>=1.15",
+  "torch==2.8.0",
+  "torchvision==0.23.0",
+]
+
+[project.scripts]
+echo-posed = "echo_posed.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "ruff==0.15.20"]
+
+[tool.uv.sources]
+echoxflow = { git = "https://github.com/Ahus-AIM/EchoXFlow.git", rev = "61f027e02118106379682d2cf286faa060130541" }
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

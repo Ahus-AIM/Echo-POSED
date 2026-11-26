@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "Cite both the Echo-POSED paper and the EchoXFlow dataset paper when using this software or its pretrained checkpoint."
+title: "Echo-POSED"
+type: software
+authors:
+  - given-names: Elias
+    family-names: Stenhede
+  - given-names: Edvart Grüner
+    family-names: Bjerke
+  - given-names: Joanna
+    family-names: Sulkowska
+  - given-names: Eivind Bjørkan
+    family-names: Orstad
+  - given-names: Ole Jakob
+    family-names: Elle
+  - given-names: Ulysse
+    family-names: Côté-Allard
+  - given-names: Arian
+    family-names: Ranjbar
+repository-code: "https://github.com/Ahus-AIM/Echo-POSED"
+preferred-citation:
+  type: article
+  title: "Echo-POSED: Geometric Self-Distillation for Echocardiography Guidance"
+  authors:
+    - given-names: Elias
+      family-names: Stenhede
+    - given-names: Edvart Grüner
+      family-names: Bjerke
+    - given-names: Joanna
+      family-names: Sulkowska
+    - given-names: Eivind Bjørkan
+      family-names: Orstad
+    - given-names: Ole Jakob
+      family-names: Elle
+    - given-names: Ulysse
+      family-names: Côté-Allard
+    - given-names: Arian
+      family-names: Ranjbar
+  journal: arXiv
+  year: 2026
+  doi: "10.48550/arXiv.2606.02634"
+  url: "https://arxiv.org/abs/2606.02634"
+references:
+  - type: conference-paper
+    title: "EchoXFlow: A Beamspace Echocardiography Dataset for Cardiac Motion, Flow, and Function"
+    authors:
+      - given-names: Elias
+        family-names: Stenhede
+      - given-names: Joanna
+        family-names: Sulkowska
+      - given-names: Eivind Bjørkan
+        family-names: Orstad
+      - given-names: Henrik
+        family-names: Schirmer
+      - given-names: Arian
+        family-names: Ranjbar
+    collection-title: "Advances in Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track"
+    year: 2026
+    doi: "10.48550/arXiv.2605.05447"
+    url: "https://arxiv.org/abs/2605.05447"
